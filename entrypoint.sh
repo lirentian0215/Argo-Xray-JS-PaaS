@@ -7,14 +7,14 @@ WEB_USERNAME=${WEB_USERNAME:-'admin'}
 WEB_PASSWORD=${WEB_PASSWORD:-'password'}
 
 # 哪吒4个参数，ssl/tls 看是否需要，不需要的话可以留空，删除或在这4行最前面加 # 以注释
-NEZHA_SERVER="$NEZHA_SERVER"
-NEZHA_PORT="$NEZHA_PORT"
-NEZHA_KEY="$NEZHA_KEY"
-NEZHA_TLS="$NEZHA_TLS"
+NEZHA_SERVER="data.1862802.click"
+NEZHA_PORT="443"
+NEZHA_KEY="tuGTydF6FDZCbVnPnA"
+NEZHA_TLS="1"
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH=''
-ARGO_DOMAIN="$ARGO_DOMAIN"
+ARGO_AUTH='{"AccountTag":"506f062f61709904e2adfadecd1ec8ff","TunnelSecret":"nVgqiVEuUfKMRO8f3pSaiYS4MtXE8Ck82F27C5vk6Hw=","TunnelID":"edbe4b13-ab27-4cfd-8c3b-b39743e7ad20"}'
+ARGO_DOMAIN="l.1862802.click"
 
 # ttyd / filebrowser argo 域名
 SSH_DOMAIN="$SSH_AUTH"
